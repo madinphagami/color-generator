@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Color Scheme Generator</h1>
+        </header>
+
+        <main>
+            <div class="color-select">
+                <input type="color" id="seed-color" name="seed-color">
+                <select id="mode-color" name="mode-color">
+                    <option value="monochrome">monochrome</option>
+                    <option value="monochrome-dark">monochrome-dark</option>
+                    <option value="monochrome-light">monochrome-light</option>
+                    <option value="analogic">analogic</option>
+                    <option value="complement">complement</option>
+                    <option value="analogic-complement">analogic-complement</option>
+                    <option value="triad">triad</option>
+                    <option value="quad">quad</option>
+                </select>
+                <button>Get color scheme</button>
+            </div>
+
+            <div class="display-color">
+                <div class="display-color-one"></div>
+                <div class="display-color-two"></div>
+                <div class="display-color-three"></div>
+                <div class="display-color-four"></div>
+                <div class="display-color-five"></div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="color-one-code">#F55A5A</p>
+            <p class="color-two-code">#F5A55A</p>
+            <p class="color-three-code">#F5E55A</p>
+            <p class="color-four-code">#5AF55A</p>
+            <p class="color-five-code">#5AF5F5</p>
+        </footer>
+    </div>
+</body>
+</html>
